@@ -5,6 +5,7 @@ app=Flask(__name__)
 def home():
     return "Welcome to home"
 
-import controller.user_controller as user_controller
 
+
+from controller import *
 
